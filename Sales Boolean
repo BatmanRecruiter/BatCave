@@ -1,0 +1,24 @@
+cur_title:("Account Executive" OR "BDR" OR "BDM" OR "Business Development" OR "Sales" OR "Salesperson" OR "SDR")
+
+AND 
+
+cur_company:("3M" OR "ABD" OR "Accent Technologies" OR "AccentCare" OR "ADP" OR "AIT Mechanical" OR "Alegion" OR "Alight Solutions" OR "Alterna Capital Solutions" OR "Amwins Connect" OR "Aon" OR "Appfire" OR "Asure Software" OR "BambooHR" OR "Bank of America" OR "Bankers Healthcare Group" OR "Beamery" OR "Benefit Technology Resources" OR "Benefitfocus" OR "Boulder Blimp Company" OR "BPA Quality" OR "Brio Energy" OR "Brown & Brown Insurance" OR "bswift" OR "Business Essentials" OR "Businessolver" OR "Carousel Industries" OR "Castlight Health" OR "Center For Discovery" OR "Certifi, Inc" OR "ChartHop" OR "Cognizant" OR "Collective Health" OR "Colonial Life" OR "Continu" OR "Cornerstone OnDemand" OR "Corporate Benefit Design" OR "Cricket Health" OR "CVS Health" OR "Dell EMC" OR "DiversyFund" OR "Doctor On Demand" OR "E*TRADE" OR "Eden Health" OR "eHealth" OR "Embold Health" OR "Employee Navigator" OR "Ess Squared Racing" OR "Explain My Benefits" OR "Fiducius" OR "Florida Mobile & Remote Notary" OR "Freelance" OR "FS Investments" OR "Gallagher" OR "Genius Avenue" OR "GIS Benefits" OR "" OR "Grand Rapids Cuban Salsa" OR "Gravie" OR "Hanna Global Solutions" OR "Health Catalyst" OR "HealthEquity" OR "Healthesystems" OR "HealthStream" OR "Heartland" OR "Hiatus" OR "HUB International" OR "Infosys" OR "" OR "Intuitive" OR "Invitae" OR "isolved" OR "Jubilant" OR "KARL STORZ" OR "KeHE Distributors" OR "Kelly" OR "KOALA" OR "Kraus-Anderson Insurance" OR "Kronos Incorporated" OR "Mailgun by Pathwire" OR "Main Street Homes" OR "Mercer" OR "Merrill Lynch" OR "MillsonJames" OR "Mobile22" OR "Moreton & Company" OR "Multiple Companies" OR "Newfront" OR "none" OR "NorthWestern Energy" OR "OneDigital" OR "Optima Health" OR "Optum" OR "Oracle" OR "Orangetheory Fitness" OR "Orlando Economic Partnership" OR "Over The Top Rental Linens" OR "Paychex" OR "Paycor" OR "Payentry" OR "Paylocity" OR "PerfectQuote" OR "PES Enrollments" OR "Ping Identity" OR "PlanSource" OR "Priority Health" OR "Private" OR "Qualtrics" OR "Raison D'etre Consulting" OR "Red Rivet Services" OR "Reliance Standard" OR "RoomForLife" OR "Sapiens" OR "Schofield Appraisal Services" OR "SIGNATURE Services" OR "Skilljar" OR "Spencer Thomas Group" OR "State Street" OR "Tamah Vega Design" OR "TCF Bank" OR "Tombras" OR "UKG" OR "Ultimate Kronos Group" OR "Ultimate Software" OR "Violet Defense" OR "Workforce Logiq")
+
+AND
+
+(positions/description:("HR" OR "Human Resources" OR "Benefits" OR "Payroll" OR "HRTech") OR summary:("HR" OR "Human Resources" OR "Benefits" OR "Payroll" OR "HRTech"))
+
+AND
+
+(positions/description:(Channel* OR "referral partners" OR "affiliate partners" OR "wholesalers" OR "distributors" OR "managed service providers" OR "marketplaces" OR "value-added resellers") OR summary:(Channel* OR "referral partners" OR "affiliate partners" OR "wholesalers" OR "distributors" OR "managed service providers" OR "marketplaces" OR "value-added resellers"))
+
+AND
+
+state:(California OR "South Carolina" OR "North Carolina")
+
+NOT 
+
+cur_title:(Direct* OR Head OR "VP" OR Vice* OR Chief OR Founder OR President OR Eng* OR Presales OR "Senior Manager" OR "Sr. Manager" OR Operat* OR Marketing OR Analy* OR "Customer Success" OR "CSM")  NOT past_companies:(Plansource)
+
+YOE: 11+
+Degrees: Bachelor's
