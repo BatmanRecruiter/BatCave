@@ -1,0 +1,17 @@
+cur_title:((software OR "golang") AND (Eng* OR Dev*))
+
+AND
+
+(positions/description:("golang") OR summary:("golang") )
+
+AND 
+
+(positions/description:("RESTful" OR "Rest" OR "API") OR summary:("RESTful" OR "Rest" OR "API"))
+
+AND 
+
+(positions/description:("AWS" OR "Amazon Cloud"~3) OR summary:("AWS" OR "Amazon Cloud"~3))
+
+AND 
+
+(positions/description:("microservices" OR "micro services"~2 OR "micro-services") OR summary:("microservices" OR "micro services"~2 OR "micro-services")); Country: United States; -State: California, Hawaii, Alaska, Washington, Oregon, Idaho, Montana, Utah, Nevada, Colorado, New Mexico; Years Of Experience: 5 - 14
